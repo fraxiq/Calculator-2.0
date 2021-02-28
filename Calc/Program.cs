@@ -36,5 +36,15 @@ namespace Calc
 
             return 0.0;
         }
+        private static double Subtract(double num1, double num2)
+        {
+            return num1 - num2;
+        }
+
+        private static double Add(double num1, double num2)
+        {
+            return num1 + num2;
+        }
+
     }
 }
